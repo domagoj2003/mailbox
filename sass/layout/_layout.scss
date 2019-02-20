@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  min-height: inherit;
+  background-color: whitesmoke;
+}
+
+.sidebar {
+  background-color: $color-dark-blue;
+  flex: 0 0 12%;
+  flex-direction: column;
+  display: flex;
+}
+
+.mailbox {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 30%;
+}
